@@ -83,3 +83,65 @@
 .social-links a:hover {
     color: #0056b3;
 }
+
+/* About */
+.about {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about h4 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.professional-summary {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.about h3 {
+    font-size: 1.75em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.about ul li br {
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}

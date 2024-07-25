@@ -4,6 +4,7 @@ import './App.css';
 // pages
 import Navbar from './pages/Navbar';
 import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
       <Routes>
         <Route path="/" exact element={<Home />} />
+        <Route path="/about" exact element = {<About />} />
       </Routes>
       </BrowserRouter>
     
