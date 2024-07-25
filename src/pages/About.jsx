@@ -1,37 +1,16 @@
 export default function About() {
     return (
         <div className="about">
-            <h2>About Me</h2>
-            <h4>Get to Know Me in Seconds</h4>
+            <h2 className=" roboto-flex">About Me</h2>
+            
 
-            <p className="professional-summary">
+            <p className="professional-summary lusitana-regular">
                 I am a passionate Software Developer and Data Analyst with a strong interest in Artificial Intelligence and Machine Learning. I have gained valuable experience working remotely through freelance projects and collaborating with remote teams using agile workflows. Currently, I am pursuing data analytics at ALX and continuously expanding my skill set by learning new technologies.
             </p>
-
-            <h3>Skill Set</h3>
-            <ul>
-                <li>
-                    Web Development (MERN Stack)
-                    <br />
-                    MongoDB, Express.js, React.js, Node.js
-                </li>
-                <li>
-                    Data Analysis
-                    <br />
-                    MS Excel and Google Sheets, MySQL, PowerBI
-                </li>
-                <li>
-                    Agile Methodologies
-                    <br />
-                    Atlassian (Jira, Trello), Scrum
-                </li>
-                <li>
-                    Artificial Intelligence
-                </li>
-            </ul>
-
-            <h3>Experience and Involvement</h3>
-            <ul>
+           
+          
+            <h3 className="roboto-flex">Experience and Involvement</h3>
+            <ul className="lusitana-regular">
                 <li>
                     <strong>Freelance Projects:</strong> I have gained extensive experience working remotely through various freelance projects. This has allowed me to hone my skills in self-management, communication, and delivering high-quality work without direct supervision.
                 </li>
@@ -64,14 +43,32 @@ export default function About() {
                 </li>
             </ul>
 
-            <h3>Personal Interests</h3>
-            <p>
-                When I'm not coding, I enjoy hiking, painting, and exploring new technologies. I also love to travel and experience different cultures.
-            </p>
+            <h3 className="roboto-flex"> Skills and Technologies</h3>
+            <div className="icons">
+                <i className="devicon-mongodb-plain-wordmark colored"></i>
+                <i className="devicon-express-original-wordmark"></i>
+                <i className="devicon-react-original-wordmark colored"></i>
+                <i className="devicon-nodejs-plain-wordmark colored"></i>
+                <i className="devicon-css3-plain-wordmark colored"></i>
+                <i className="devicon-azuresqldatabase-plain colored"></i>
+                <i className="devicon-git-plain-wordmark colored"></i>
+                <i className="devicon-jira-plain-wordmark colored"></i>
+                <i className="devicon-trello-plain-wordmark colored"></i>
+                <i className="devicon-bootstrap-plain-wordmark colored"></i>
+                <i className="devicon-azure-plain-wordmark colored"></i>
+                <i className="devicon-javascript-plain colored"></i>
+                <i className="devicon-python-plain-wordmark colored"></i>
+                <i className="devicon-redux-original colored"></i>
+                <i className="devicon-npm-original-wordmark colored"></i>
+                <i className="devicon-canva-original colored"></i>
+                <i className="devicon-openapi-plain-wordmark colored"></i>
+                <i className="devicon-axios-plain-wordmark"></i>
+                <i className="devicon-chrome-plain-wordmark colored"></i>
+            </div>
 
-            <h3>Contact</h3>
-            <p>
-                Feel free to <a href="mailto:your-email@example.com">email me</a> or connect with me on <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+            <h3 className="roboto-flex">Contact</h3>
+            <p className="lusitana-regular">
+                Feel free to <a href="mailto:Sallywanga2016@gmail.com">email me</a> or connect with me on <a href="https://www.linkedin.com/in/swugisha/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
             </p>
         </div>
     );
