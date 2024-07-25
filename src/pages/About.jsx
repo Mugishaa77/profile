@@ -1,3 +1,5 @@
+import Recommendation from '../media/Recommendation_Letter-Sally_Mugisha_Wanga.pdf';
+
 export default function About() {
     return (
         <div className="about">
@@ -5,10 +7,56 @@ export default function About() {
             
 
             <p className="professional-summary lusitana-regular">
-                I am a passionate Software Developer and Data Analyst with a strong interest in Artificial Intelligence and Machine Learning. I have gained valuable experience working remotely through freelance projects and collaborating with remote teams using agile workflows. Currently, I am pursuing data analytics at ALX and continuously expanding my skill set by learning new technologies.
+             I am a passionate Software Developer and Data Analyst with a keen interest in
+                 Artificial Intelligence(AI).
+                 
+                 <br/>
+                 Through working remotely on freelance projects and collaborating with remote teams using agile workflows, I have gained valuable experience in web design.
+                  Currently, I am pursuing data analytics at ALX and continuously expanding my 
+                  skill set by learning new technologies.
             </p>
-           
+
+            <h3 className="roboto-flex">Recommendation</h3>
+            <p className="lusitana-regular">
+            I am honored to share a recommendation letter I received from ALX for my role as a Volunteer Mentor in the AICE Program.
+            </p>
+            <a href={Recommendation} target="_blank" className="button">View Recommendation Letter</a>
+
+
           
+          <h3 className="roboto-flex">Licenses and Certifications</h3>
+             <ul className="roboto-flex">
+                <li>
+                IBM Artificial Intelligence Fundamentals - July 2024         
+                </li>
+                <a href="https://www.credly.com/badges/f4106ad3-1774-4dcc-8a69-43db18c82579/linked_in_profile"
+                target="_blank"
+                title="certificate"
+                rel="noopener noreferrer">
+                    View Credential<sup><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+</svg></sup></a>
+
+                <li>Scrum for Operations and Devops Fundamentals - June 2024</li>
+                <a href="https://drive.google.com/file/d/1FgFBMpTz75_T_8XLcunz-zMG4bJEuEhK/view?usp=sharing"
+                target="_blank"
+                title="certificate"
+                rel="noopener noreferrer">
+                View Credential<sup><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+</svg></sup></a>
+             
+             <li>Azure Responsible AI Workshop Completion - March 2024</li>
+             <a href="https://www.credly.com/badges/71c9c440-948b-4abc-bdbf-e08d7e01df99/linked_in_profile"
+             target="_blank"
+             title="certificate"
+             rel="noopener noreferrer">View Credential<sup><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+</svg></sup></a>
+             </ul>
             <h3 className="roboto-flex">Experience and Involvement</h3>
             <ul className="lusitana-regular">
                 <li>
