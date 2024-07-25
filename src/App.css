@@ -21,6 +21,14 @@
   
 }
 
+/* Castoro */
+.castoro {
+    font-family: "Castoro Titling", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 .home {
     text-align: center;
     padding: 50px;
@@ -87,80 +95,144 @@
 /* About */
 .about {
     background-color: #f9f9f9;
-    text-align: left;
     padding: 1rem;
-    margin: 1rem;
-    padding-top: 0;
-    margin-top: 0;
+
 }
 
 .about h2 {
     font-size: 2em;
     color: #333;
-    margin-bottom: 20px;
     text-align: center;
-    text-decoration: underline;
+    
+}
+
+.about p {
+    font-size: 1.2em;
+}
+
+.about .professional-summary{
+    font-size: 1.2em;
+   margin: 1rem;
+    color: #333;
 }
 
 .about h4 {
     font-size: 1.5em;
     color: #555;
-    margin-bottom: 30px;
     text-align: center;
 }
 
-.professional-summary {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-.about h3 {
-    font-size: 1.75em;
-    color: #444;
-    margin-bottom: 20px;
-   
-}
-
-.about ul {
-    list-style-type: disc;
-    padding: 1rem;
-    padding-top: 0;
+.recommendation {
     margin-left: 1rem;
+    padding-left: 1rem;
 }
 
-.about ul li {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
 
-.about ul li br {
-    margin-bottom: 10px;
-}
-
-.about p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-   
-}
-
-.about a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.about a:hover {
-    text-decoration: underline;
-}
-
-.about .icons {
+.button-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
-    margin: 20px 0;
-}
+    justify-content: flex-end;
+    margin-right: 10rem;
+  }
+  
+  .button-container a {
+    color: #B38B32;
+  }
 
-.about i {
-    font-size: 36px;
-}
- 
+  .button-container a:hover {
+    color: #00A51B;
+  }
+
+  .licenses {
+    padding: 1rem;
+    margin: 1rem;
+   padding-bottom: 0;
+  }
+
+  .licenses ul {
+    list-style-type: none;
+  margin-left: 1rem;
+  }
+
+  .licenses ul li {
+    font-size: 1.2em;
+    padding-top: 1rem;
+   
+  }
+
+  .licenses a {
+    color: #00A51B;
+    margin: 1rem;
+    text-align: right;
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+
+  .licenses a:hover {
+    color: #007BFF;
+  }
+
+  .experience {
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 0;
+   
+  }
+
+  .experience ul {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .experience ul li {
+    margin-bottom: 20px;
+  }
+
+    .technologies {
+        margin: 1rem;
+    }
+  
+    .technologies h3 {
+        text-align: center;
+    }
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+        margin: 20px 0;
+    }
+    
+    .about i {
+        font-size: 36px;
+    }
+  
+    .outro {
+        padding: 1rem;
+        margin: 1rem;
+        
+    }
+
+    .outro h3 {
+        text-align: left;
+    }
+
+    .redirect {
+        margin-left: 1rem;
+        padding-left: 1rem;
+        
+    }
+
+    .redirect h3 {
+        text-align: left;
+    }
+
+    .redirect a {
+        font-size: 1.5em;
+        margin-left: 1rem;
+        color: #712CF9;
+    }
+
+    .redirect a:hover {
+        color:#B38B32;
+    }
