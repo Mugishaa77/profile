@@ -94,37 +94,37 @@
 
 /* About */
 .about {
-    background-color: #f9f9f9;
     padding: 1rem;
 
 }
 
 .about h2 {
     font-size: 2em;
-    color: #333;
     text-align: center;
     
 }
 
 .about p {
     font-size: 1.2em;
+   
+    
 }
 
 .about .professional-summary{
     font-size: 1.2em;
    margin: 1rem;
-    color: #333;
+   
 }
 
 .about h4 {
     font-size: 1.5em;
-    color: #555;
     text-align: center;
 }
 
 .recommendation {
     margin-left: 1rem;
     padding-left: 1rem;
+    
 }
 
 
@@ -132,6 +132,7 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 10rem;
+    font-size: 1em;
   }
   
   .button-container a {
@@ -151,6 +152,7 @@
   .licenses ul {
     list-style-type: none;
   margin-left: 1rem;
+  
   }
 
   .licenses ul li {
@@ -181,6 +183,7 @@
   .experience ul {
     font-size: 1.2em;
     margin-bottom: 20px;
+    
   }
 
   .experience ul li {
@@ -236,3 +239,35 @@
     .redirect a:hover {
         color:#B38B32;
     }
+
+    /* Icons */
+    @keyframes slide {
+      from {
+        transform: translateX(0%);
+      }
+      to {
+        transform: translateX(-50%);
+      }
+    }
+    
+    .technologies {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      padding-top: 20px;
+      margin-top: 25px;
+      margin-bottom: 30px;
+    }
+    
+    .icons {
+      display: flex;
+      width: 200%;
+      height: 70px;
+      animation: slide 30s linear infinite;
+    }
+    
+    .icons i {
+      font-size: 3rem; /* Adjust the size as needed */
+      margin-left: 45px;
+    }
+    
