@@ -1,39 +1,52 @@
+import {NavLink} from 'react-router-dom';
+import Mugisha from '../media/Mugisha.png';
 
 export default function Navbar() {
   return (
-    <div className="navbar roboto-flex">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Sally Wanga</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+    <nav className="lusitana-bold">
+      <img src={Mugisha} alt="Mugisha" />
+      <ul>
+        <li>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
+            Home
+          </NavLink>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+        <li>
+          <NavLink
+            to="/about"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
+            About
+          </NavLink>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li>
+          <NavLink
+            to="/projects"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             Projects
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Darasani Hub</a></li>
-            <li><a class="dropdown-item" href="#">Atlas</a></li>
-            <li><a class="dropdown-item" href="#">Evergreen</a></li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+            </svg>
+          </NavLink>
+          <ul className="drop">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Me</a>
+        <li>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
+            Contact
+          </NavLink>
         </li>
-        
       </ul>
-    </div>
-  </div>
-</nav>
-    </div>
+    </nav>
   );
 }
