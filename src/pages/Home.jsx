@@ -8,7 +8,7 @@ export default function Home() {
                 Hi, My Name is Sally Wanga
             </h1>
             <h2 className="home-subtitle roboto-flex">
-            Welcome to my profile—where creativity meets expertise
+            Welcome to my profile—where skill meets passion
             </h2>
             <p className="home-bio lusitana-bold">
                

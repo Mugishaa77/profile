@@ -1,3 +1,12 @@
+:root {
+  --main-red : #4F2730;
+  --strawberry: #FEA498;
+  --navlinks: #C6A1AC;
+  --marigold: #E8E7D5;
+  --teal: #AAC6B1;
+}
+
+
 /* Lusitana Font */
 .lusitana-regular {
     font-family: "Lusitana", serif;
@@ -32,7 +41,7 @@
 
 /* Navbar */
 nav {
-  background-color: #4F2730; /* Dark background */
+  background-color: var(--main-red); /* Dark background */
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -78,14 +87,14 @@ nav .drop {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #E8E7D5; /* Light Beige background */
+  background-color: var(--marigold); /* Light Beige background */
   padding: 2px;
   margin-left: 1rem;
   width: 100px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   white-space: nowrap; 
-  border: 1px solid #4F2730; /* Ensure items don't break lines */
+  border: 1px solid var(--main-red); /* Ensure items don't break lines */
 }
 
 nav ul li:hover ul {
@@ -107,7 +116,7 @@ nav .drop li:hover {
 
 /* Active Link Styles */
 nav ul li a.active {
-  color: #E8E7D5;
+  color: var(--marigold);
   font-weight: bold;
 }
 
@@ -140,7 +149,6 @@ nav svg {
 .home {
     text-align: center;
     padding: 50px;
-    background-color: #F7E5EA; /* Example background color */
     background-color: white;
   }
 
@@ -156,13 +164,13 @@ nav svg {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #4F2730;
+    color: var(--main-red);
 }
 
 .home-subtitle {
     font-size: 1.5em;
     font-weight: normal;
-    color: #4F2730;
+    color: var(--main-red);
     opacity: 0.9;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -172,7 +180,7 @@ nav svg {
     font-size: 1.2em;
     opacity: 0.8;
     margin-bottom: 30px;
-    color:#4F2730 ;
+    color:var(--main-red) ;
     text-transform: capitalize;
     padding: 1rem;
 }
@@ -194,13 +202,13 @@ nav svg {
 }
 
 .cta-buttons .btn:hover {
-    background-color: #FEA498;
-    color: #4F2730;
+    background-color: var(--strawberry);
+    color: var(--main-red);
 }
 
 .social-links a {
-    color: #FEA498;
-    background-color: #4F2730;
+    color: var(--strawberry);
+    background-color: var(--main-red);
     text-decoration: none;
     padding: 1rem;
     margin: 0.5rem;
@@ -209,8 +217,8 @@ nav svg {
 }
 
 .social-links a:hover {
-  background-color: #FEA498;
-    color: #4F2730;
+  background-color: var(--strawberry);
+    color: var(--main-red);
     
 }
 
@@ -223,21 +231,29 @@ nav svg {
 .about h2 {
     font-size: 2em;
     text-align: center;
+    color: var(--main-red);
     
 }
 
 .about p {
     font-size: 1.2em;
-   
+    color: var(--main-red);
+     
     
 }
 
+.about h3 {
+  color: var(--main-red);
+}
 .about .professional-summary{
     font-size: 1.2em;
    margin: 1rem;
    
 }
 
+.professional-summary p {
+  font-weight: bold;
+}
 .about h4 {
     font-size: 1.5em;
     text-align: center;
@@ -249,6 +265,9 @@ nav svg {
     
 }
 
+.recommendation p{
+  opacity: 0.9;
+}
 
 .button-container {
     display: flex;
@@ -258,11 +277,11 @@ nav svg {
   }
   
   .button-container a {
-    color: #B38B32;
+    color: var(--strawberry);
   }
 
   .button-container a:hover {
-    color: #00A51B;
+    color: var(--navlinks);
   }
 
   .licenses {
@@ -274,6 +293,8 @@ nav svg {
   .licenses ul {
     list-style-type: none;
   margin-left: 1rem;
+  color: var(--navlinks);
+  
   
   }
 
@@ -284,7 +305,7 @@ nav svg {
   }
 
   .licenses a {
-    color: #00A51B;
+    color: var(--teal);
     margin: 1rem;
     text-align: right;
     font-size: 1em;
@@ -292,7 +313,7 @@ nav svg {
   }
 
   .licenses a:hover {
-    color: #007BFF;
+    color: var(--strawberry);
   }
 
   .experience {
@@ -305,6 +326,8 @@ nav svg {
   .experience ul {
     font-size: 1.2em;
     margin-bottom: 20px;
+    color: var(--main-red);
+    opacity: 0.9;
     
   }
 
@@ -342,6 +365,14 @@ nav svg {
         text-align: left;
     }
 
+    .outro a {
+      color: var(--teal);
+    }
+
+    .outro a:hover {
+      color: var(--navlinks)
+    }
+
     .redirect {
         margin-left: 1rem;
         padding-left: 1rem;
@@ -355,11 +386,11 @@ nav svg {
     .redirect a {
         font-size: 1.5em;
         margin-left: 1rem;
-        color: #712CF9;
+        color: var(--teal);
     }
 
     .redirect a:hover {
-        color:#B38B32;
+        color: var(--navlinks);
     }
 
     /* Icons */
