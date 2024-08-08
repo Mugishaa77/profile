@@ -33,7 +33,7 @@ export default function Navbar() {
             </svg>
           </NavLink>
           <ul className="drop">
-            <li>One</li>
+            <NavLink to="/atlas">Atlas Tea</NavLink>
             <li>Two</li>
             <li>Three</li>
           </ul>

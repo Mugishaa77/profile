@@ -365,6 +365,10 @@ nav svg {
         text-align: left;
     }
 
+    .outro p {
+      opacity: 0.9;
+    }
+
     .outro a {
       color: var(--teal);
     }
@@ -424,3 +428,31 @@ nav svg {
       margin-left: 45px;
     }
     
+    /* Contact */
+    .contact .ty {
+      padding: 1rem;
+      text-align: center;
+      font-size: 24px;
+      color: var(--main-red);
+    }
+
+    .ty span {
+      background-color: var(--main-red);
+      margin: 0.5rem;
+      padding: 0.5rem;
+      padding-right: 0.8rem;
+      border-radius: 50px;
+    }
+
+    .contact img {
+      height: 200px;
+     
+    }
+
+    .contact .thankyou {        
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto!important;
+      padding: 1rem;
+    }
+
