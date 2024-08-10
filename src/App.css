@@ -37,7 +37,60 @@
     font-style: normal;
   }
   
-/* Navbar */
+/* Poppins */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
 
 /* Navbar */
 nav {
@@ -69,7 +122,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #C49FAA;
+  color: var(--navlinks);
   text-decoration: none;
   padding: 10px 20px;
   display: block;
@@ -88,9 +141,10 @@ nav .drop {
   top: 100%;
   left: 0;
   background-color: var(--marigold); /* Light Beige background */
+  color: var(--main-red);
   padding: 2px;
   margin-left: 1rem;
-  width: 100px;
+  width: 150px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   white-space: nowrap; 
@@ -103,7 +157,7 @@ nav ul li:hover ul {
 
 nav ul li ul li a {
   padding: 10px 20px;
-  color: #2D4031; /* Dark Green text color */
+  color: var(--main-red) /* Dark Green text color */
 }
 
 nav ul li ul li a:hover {
@@ -116,7 +170,7 @@ nav .drop li:hover {
 
 /* Active Link Styles */
 nav ul li a.active {
-  color: var(--marigold);
+  color: var(--strawberry);
   font-weight: bold;
 }
 
@@ -455,4 +509,188 @@ nav svg {
       margin: 0 auto!important;
       padding: 1rem;
     }
+
+/* Atlas */
+.atlas {
+  background-color: #F5F5F5;
+  padding: 1rem;
+ 
+}
+
+
+.atlas h1 {
+  text-align: center;
+    padding: 1rem;
+    color: #342F7F;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.atlas h1 hr {
+  margin-top:0;
+  padding-top: 0;
+  width: 300px;
+  margin: 0 auto;
+  border: none;
+      height: 3px;
+      background-color: #E4440A;
+      opacity: 1;
+      border-radius: 1px;
+}
+
+.atlas-home {
+  padding: 1rem;
+   text-align: center;
+   background-color: white;
+  margin: 1rem;
+  box-shadow: 2px -2px 5px gainsboro;
+  
+}
+
+
+.atlas-home img {
+  height: 360px;
+  width: auto;
+  margin: 1rem;
+  box-shadow: 2px -1px 5px #342F7F;
+ 
+}
+
+.atlas-link  {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+.atlas-link a {
+  font-size: 20px;
+}
+
+.atlas-link h4 {
+  font-weight: bold;
+  color: #342F7F;
+  text-decoration: underline;
+ 
+}
+
+.atlas-overview {
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.atlas-overview h2 {
+  color: #342F7F;
+  text-decoration: underline;
+  margin-left: 1rem;
+}
+
+.atlas-overview p,
+.atlas-layout p {
+  font-size: 20px;
+  color: #009F55;
+  margin-left: 1rem;
+}
+
+.atlas-layout h3 {
+  color: #342F7F;
+  margin-left: 1rem;
+  text-decoration: underline;
+
+}
+
+.atlas-features {
+  padding: 1rem;
+  padding-top: 0;
+  margin-left: 1rem;
+  padding-bottom: 0;
+}
+
+.atlas-features h3 {
+  color: #342F7F;
+  text-decoration: underline;
+}
+
+.atlas-features ul {
+  color:#009F55;
+  font-size: 19px;
+  list-style-type:decimal;
+}
+
+.auction-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem; /* Adjust the gap between items if needed */
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem;
+
+}
+
+.auction-features li {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif!important;
+  background-color: white;
+  color:#342F7F;
+  padding: 2px;
+  text-decoration: underline;
+}
+
+.atlas-features .auction-features img  {
+  height: 320px;
+  width: auto;
+ text-align: center;
+ margin: 1rem;
+ box-shadow: 2px -1px 5px #342F7F;
+}
+
+.atlas-conclusion  {
+  text-align: center;
+}
+
+.atlas-conclusion h4 {
+  color:#342F7F;
+  text-decoration: underline;
+}
+
+.atlas-conclusion h5 {
+  color:#342F7F;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.atlas-conclusion h6 {
+  color:#009F55;
+  font-size: 18px;
+    margin-bottom: 0;
+  
+}
+
+.atlas-conclusion p {
+  text-transform: uppercase;
+  font-size: 16px;
+  color:#009F55;
+
+}
+
+.stack-wrap {
+  display: flex;
+  justify-content: center;
+   margin: 0 auto;
+  text-align: center;
+}
+
+.stack {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.stack a {
+  font-size: 17px;
+  
+  
+}
 
