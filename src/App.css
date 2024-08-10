@@ -526,6 +526,7 @@ nav svg {
     margin-bottom: 0;
     font-weight: bold;
     text-transform: uppercase;
+    padding-top: 0;
 }
 
 .atlas h1 hr {
