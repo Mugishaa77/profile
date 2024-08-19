@@ -726,7 +726,10 @@ nav svg {
   padding: 1rem;
   text-align: center;
   font-size: 24px;
-  color: var(--main-red);
+  color: var(--navlinks);
+  background-color: #F5F5F5;
+  margin: 1rem;
+  border-radius: 50px;
 }
 
 .ty span {
@@ -738,7 +741,8 @@ nav svg {
 }
 
 .contact img {
-  height: 200px;
+  height: 300px;
+  width: auto;
  
 }
 
@@ -746,3 +750,112 @@ nav svg {
   display:block;
   margin: 0 auto;
 }
+
+.contact-info {
+  padding: 1rem;
+  text-align: center;
+
+}
+
+.contact-info h2 {
+color: var(--main-red);
+padding-bottom: 0;
+margin-bottom: 0;
+
+}
+
+.phone-number {
+ margin-bottom: 1rem;
+ font-size: 22px;
+ font-weight: bold;
+ color: var(--strawberry);
+}
+
+.phone-number:hover {
+  color: var(--navlinks);
+  text-decoration: underline;
+}
+
+.email {
+  padding: 1rem;
+}
+
+.email h3 {
+  padding: 0;
+  margin: 0;
+  color: var(--main-red);
+
+}
+
+.email a {
+  color: var(--strawberry);
+  font-size: 21px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.email a:hover {
+  color: var(--navlinks);
+}
+
+.contact-info h4,
+.contact-info h5 {
+  padding-top: 0.5rem;
+  color: var(--main-red);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.prof-profiles,
+.hobby {
+  padding: 5px;
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  gap: 20px; /* Add some space between the items */
+  padding-bottom: 10px;
+}
+
+.prof-profiles a,
+.hobby a {
+  color: var(--strawberry);
+  
+}
+
+.prof-profiles a:hover,
+.hobby a:hover {
+  color: var(--navlinks)
+
+}
+
+.twitter h4 {
+  color: var(--main-red);
+  padding: 0;
+  margin: 0;
+}
+
+.cv-d {
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.contact-info .cv {
+  color: var(--strawberry);
+ font-size: 22px;
+ 
+}
+
+.contact-info .cv:hover {
+  color: var(--navlinks)
+
+}
+
+.thankyou {
+  display: flex;
+  justify-content: center; /* Centers the images horizontally */
+  align-items: center; /* Centers the images vertically */
+  gap: 10px; /* Adjust the space between the images */
+  margin: 0 auto; /* Centers the entire div within its container */
+  width: fit-content; /* Ensures the div only takes up as much space as necessary */
+}
+
