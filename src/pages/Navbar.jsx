@@ -35,7 +35,7 @@ export default function Navbar() {
           <ul className="drop">
             <NavLink to="/atlas">Atlas Tea</NavLink>
             <NavLink to="/evergreen">Evergreen Farms</NavLink>
-            <li>Three</li>
+            <NavLink to="/darasani">Darasani Hub</NavLink>
           </ul>
         </li>
         <li>
