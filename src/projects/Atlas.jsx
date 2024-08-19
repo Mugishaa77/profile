@@ -4,6 +4,7 @@ import Catalogues from '../media/catalogues.png';
 import IndustryReports from '../media/industry_reports.png';
 import MarketReport from '../media/market_report.png';
 import Schedule from '../media/schedule.png';
+import Contact from '../media/atlas_contact.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCode, faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 
@@ -105,6 +106,10 @@ export default function Atlas () {
                         </strong>
                         Contains the contact information (phone, email and social media links), feedback form,
                         live location and directions, business address and business address.
+                        <div className="atlas-contact-image">
+                            <img src={Contact} alt="Atlas Contact Image" />
+
+                        </div>
                     </li>
 
                     <li>

@@ -10,6 +10,7 @@ import Contacts from './pages/Contact';
 
 // projects
 import Atlas from './projects/Atlas';
+import Evergreen from './projects/Evergreen';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 
         {/* Projects */}
         <Route path="/atlas" exact element= {<Atlas/>}/>
+        <Route path="/evergreen" exact element={<Evergreen/>}/>
       </Routes>
       </BrowserRouter>
     

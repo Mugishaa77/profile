@@ -102,6 +102,9 @@ export default function About() {
                     <strong>IBM Fundamentals of AI Training:</strong> I have completed IBM's Fundamentals of AI training, which has equipped me with a strong understanding of AI concepts and applications. This training has been instrumental in advancing my AI and machine learning skills.
                 </li>
                 <li>
+                <strong>Zindian:</strong> I'm a member of Zindi, where I seek to grow my Data Analytics Career through workshops, Microsoft Certifications and Hopefully in the near future, hackathons. They also have a wide talent pool and networking opportunities where I have met many friends and professional connections.
+                </li>
+                <li>
                     <strong>Powerlearn Project:</strong> I am currently learning new technologies, namely Python and Flutter, through the Powerlearn project. This continuous learning journey allows me to stay updated with the latest advancements in technology and expand my skill set in software development and data analysis.
                 </li>
             </ul>
