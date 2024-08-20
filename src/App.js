@@ -11,6 +11,7 @@ import Contacts from './pages/Contact';
 // projects
 import Atlas from './projects/Atlas';
 import Evergreen from './projects/Evergreen';
+import Darasani from './projects/Darasani';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         {/* Projects */}
         <Route path="/atlas" exact element= {<Atlas/>}/>
         <Route path="/evergreen" exact element={<Evergreen/>}/>
+        <Route path="/darasani" exact element={<Darasani />} />
       </Routes>
       </BrowserRouter>
     
