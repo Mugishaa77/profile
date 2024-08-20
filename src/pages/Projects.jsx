@@ -1,15 +1,19 @@
+import AtlasCard from "../projects/AtlasCard";
+import EvergreenCard from "../projects/EvergreenCard";
+import DarasaniCard from "../projects/DarasaniCard";
+
 export default function Projects () {
     return (
         <div className="projects">
         <ul>
           <li>
-            <a href="/atlas">Atlas</a>
+            <AtlasCard />
           </li>
           <li>
-            <a href="/evergreen">Evergreen</a>
+            <EvergreenCard />
           </li>
           <li>
-            <a href="/darasani">Darasani</a>
+            <DarasaniCard />
           </li>
         </ul>
       </div>

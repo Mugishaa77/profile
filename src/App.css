@@ -7,6 +7,8 @@
 }
 
 
+
+
 /* Lusitana Font */
 .lusitana-regular {
     font-family: "Lusitana", serif;
@@ -1027,5 +1029,184 @@ margin-bottom: 0;
   gap: 10px; /* Adjust the space between the images */
   margin: 0 auto; /* Centers the entire div within its container */
   width: fit-content; /* Ensures the div only takes up as much space as necessary */
+}
+
+
+/*  */
+.atlas-card {
+  background-color: #F2F2E0; /* light ivory */
+  color: var(--neutral-dark); /* charcoal */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  font-family: 'Lusitana', serif; /* or whichever font you are using */
+}
+
+.atlas-card h2 {
+  color: var(--main-red); /* deep maroon */
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+
+.atlas-card hr {
+  border: 1px solid var(--navlinks); /* muted mauve */
+  margin-bottom: 20px;
+}
+
+.atlas-images img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.atlas-summary p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.atlas-summary strong {
+  color: var(--teal); /* soft teal */
+}
+
+.atlas-links {
+  margin-top: 20px;
+}
+
+.atlas-links a {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--navlinks);
+  background-color: white;
+}
+
+.atlas-links a:hover {
+  background-color: var(--main-red); /* deep maroon */
+}
+
+.code-links {
+  margin-top: 10px;
+}
+
+.code-links a {
+  display: block;
+  color: var(--teal); /* charcoal */
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.code-links a:hover {
+ color: var(--navlinks);
+ 
+}
+
+.fontawesome-icon {
+  margin-left: 5px;
+}
+
+/*  */
+.evergreen-card {
+  background-color: #F2F2E0; /* light ivory */
+  color: var(--neutral-dark); /* charcoal */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  font-family: 'Lusitana', serif; /* or whichever font you are using */
+}
+
+.evergreen-card h2 {
+  color: var(--main-red); /* deep maroon */
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.evergreen-card hr {
+  border: 1px solid var(--navlinks); /* muted mauve */
+  margin-bottom: 20px;
+}
+
+.evergreen-image img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.evergreen-summary p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.evergreen-summary strong {
+  color: var(--teal); /* soft teal */
+}
+
+.evergreen-links {
+  margin-top: 20px;
+}
+
+.evergreen-links a {
+  display: inline-block;
+  background-color: var(--accent); /* vibrant coral */
+  color: var(--mainred); /* light ivory */
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--navlinks);
+  background-color: white;
+}
+
+.evergreen-links a:hover {
+  background-color: var(--main-red); /* deep maroon */
+}
+
+.code-links {
+  margin-top: 10px;
+}
+
+.code-links a {
+  display: block;
+  color: var(--teal); /* charcoal */
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.code-links a:hover {
+  color: var(--navlinks); /* vibrant coral */
+}
+
+.fontawesome-icon {
+  margin-left: 5px;
+}
+
+/* Projects */
+.projects ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.detail {
+  display: inline-flex;
+  padding: 1rem;
+  color: var(--strawberry);
+
+}
+
+.detail:hover {
+  color: var(--navlinks);
+}
+.detail svg {
+  margin-top: 3px;
 }
 
