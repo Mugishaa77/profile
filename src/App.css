@@ -894,6 +894,8 @@ nav svg {
 }
 /* Contact */
  /* Contact */
+
+ 
  .contact .ty {
   padding: 1rem;
   text-align: center;
@@ -902,6 +904,7 @@ nav svg {
   background-color: #F5F5F5;
   margin: 1rem;
   border-radius: 50px;
+  box-shadow: 0 1px 2px var(--navlinks);
 }
 
 .ty span {
@@ -921,11 +924,21 @@ nav svg {
 .contact .thankyou {        
   display:block;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .contact-info {
-  padding: 1rem;
-  text-align: center;
+  background-color: #F0F0F0; /* light ivory */
+  color: var(--neutral-dark); /* charcoal */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px var(--navlinks);
+  max-width: 400px;
+  font-family: 'Lusitana', serif; /* or whichever font you are using */
+  text-align: center; 
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 1rem;
 
 }
 
@@ -1049,6 +1062,7 @@ margin-bottom: 0;
   margin-bottom: 10px;
   font-size: 1.8em;
   text-align: center;
+ 
 }
 
 
@@ -1210,3 +1224,4 @@ margin-bottom: 0;
   margin-top: 3px;
 }
 
+/*  */
