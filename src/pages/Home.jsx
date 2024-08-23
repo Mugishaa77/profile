@@ -17,8 +17,8 @@ export default function Home() {
              <br/> One Line of Code at a Time!
             </p>
             <div className="cta-buttons">
-                <a href="#projects" className="btn">View My Work</a>
-                <a href="#contact" className="btn">Get in Touch</a>
+                <a href="/projects" className="btn">View My Work</a>
+                <a href="/contact" className="btn">Get in Touch</a>
             </div>
             <div className="social-links">
                 <a href="https://www.linkedin.com/in/swugisha/" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">

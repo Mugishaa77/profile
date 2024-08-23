@@ -1,13 +1,4 @@
 import EvergreenHome from '../media/evergreen_home.png';
-import EvergreenMarket from '../media/evergreen_market.png';
-import EvergreenBasket from '../media/evergreen_basket.png';
-import CheckoutOne from '../media/checkout_one.png';
-import CheckoutTwo from '../media/checkout_two.png';
-import CheckoutThree from '../media/checkout_three.png';
-import CheckoutFour from '../media/checkout_four.png';
-import EvergreenClear from '../media/evergreen_clear.png';
-import EvergreenLogin from '../media/evergreen_login.png';
-import EvergreenDashboard from '../media/evergreen_dashboard.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCode, faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 

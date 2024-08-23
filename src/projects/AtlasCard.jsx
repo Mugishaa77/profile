@@ -1,10 +1,4 @@
 import AtlasHome from '../media/atlas_home.png';
-import AtlasTwo from '../media/atlas_two.png';
-import Catalogues from '../media/catalogues.png';
-import IndustryReports from '../media/industry_reports.png';
-import MarketReport from '../media/market_report.png';
-import Schedule from '../media/schedule.png';
-import Contact from '../media/atlas_contact.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCode, faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 

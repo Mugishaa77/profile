@@ -109,6 +109,10 @@ nav img {
   height: 50px; /* Adjust as needed */
 }
 
+body.light nav .dark {
+  display: none;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -172,6 +176,7 @@ nav .drop a:hover {
 nav ul li a.active {
   color: var(--strawberry);
   font-weight: bold;
+  text-decoration: underline;
 }
 
 nav svg {
@@ -487,7 +492,7 @@ nav svg {
 .atlas {
   background-color: #F5F5F5;
   padding: 1rem;
- 
+ padding-top: 0;
 }
 
 
@@ -1125,6 +1130,12 @@ margin-bottom: 0;
 }
 
 /*  */
+
+.back-arrow {
+  padding: 2px;
+  margin-left: 2rem;
+}
+
 .evergreen-card {
   background-color: #F2F2E0; /* light ivory */
   color: var(--neutral-dark); /* charcoal */
@@ -1224,15 +1235,194 @@ margin-bottom: 0;
   margin-top: 3px;
 }
 
-/*  */
-body.light {
-  background-color: white;
-  color: black;
+/* Dark Mode Configuration */
+
+button.toggle-mode {
+color: var(--strawberry);
+background-color: var(--main-red);
+border: 1px solid var(--main-red);
+
 }
 
+button.toggle-mode:hover {
+  color: var(--strawberry);
+  transition: all .2s ease-in-out;
+}
+
+body.dark button.toggle-mode {
+  color: var(--marigold);
+  background-color: #3A2C40;
+  border: 1px solid #3A2C40;
+  
+  }
+  
+ body.dark button.toggle-mode:hover {
+    color: var(--strawberry);
+    transition: all .2s ease-in-out;
+  }
+
 body.dark {
-  background-color: #121212;
+  background-color: #0B1720;
+  
+}
+
+/* Home */
+body.dark nav {
+  background-color: #3A2C40;
+}
+
+body.dark nav .light {
+  display: none;
+}
+
+body.dark nav ul li a {
+  color:  #84B3C0;
+}
+
+body.dark nav ul li a:hover {
+  background-color: white; /* Soft Blush Pink background on hover */
+  color: #0B1720; /* Dark Green text color */
+}
+
+body.dark .home {
+  background-color: #0B1720;
+}
+
+body.dark .home h1 {
   color: white;
 }
 
-/* Additional styles for specific elements */
+body.dark .home .cta-buttons a {
+  background-color: #84B3C0;
+  border: 2px solid white;
+  color: #0B1720;
+  font-weight: bold;
+}
+
+body.dark .home .cta-buttons a:hover {
+  background-color: silver;
+  color: white;
+}
+
+body.dark .social-links a {
+  background-color: var(--teal);
+  color: #0B1720;
+  border: 2px solid white;
+}
+
+body.dark .social-links a:hover {
+  background-color: white;
+  border: 2px solid var(--teal);
+  color: #84B3C0;
+}
+
+body.dark h2 {
+  color: var(--marigold);
+}
+
+body.dark h3 {
+  color: white;
+}
+
+body.dark p
+ {
+  color: #84B3C0;
+}
+
+body.dark .button-container a {
+  color: var(--marigold);
+}
+
+body.dark .button-container a:hover {
+  color: var(--navlinks);
+}
+
+body.dark .experience ul {
+  color: #84B3C0;
+
+
+}
+
+body.dark .outro a {
+  color: var(--strawberry);
+}
+
+body.dark .outro a:hover {
+  color: var(--teal);
+} 
+
+body.dark .redirect a {
+  color: var(--strawberry);
+}
+
+body.dark .redirect a:hover {
+  color: var(--teal);
+}
+
+/* Cards Page  */
+body.dark .atlas-card {
+ background-color:  #22282B;
+}
+
+body.dark .evergreen-card {
+  background-color:  #22282B;
+
+}
+
+body.dark .atlas-links a:hover {
+  background-color:#3A2C40;
+}
+
+body.dark .evergreen-links a:hover {
+  background-color:#3A2C40;
+}
+
+body.dark .code-links a {
+  color: #0B1720;
+}
+
+body.dark .code-links a:hover {
+  background-color: var(--teal);
+  
+ }
+/* Contact Page */
+body.dark .contact-info {
+  background-color:  #22282B;
+  box-shadow: 0 1px 2px #84B3C0;
+}
+
+body.dark .contact-info a {
+  color: #84B3C0;
+}
+
+body.dark .contact-info a:hover {
+  color: var(--teal);
+}
+
+body.dark .contact-info h4 {
+  color: white;
+}
+
+body.dark .contact-info h5 {
+  color: white;
+}
+
+body.dark .thankyou {
+  display: none;
+}
+
+body.dark .ty {
+  background-color: #0B1720;
+  margin-top: 5rem;
+  box-shadow: 0 1px 2px #84B3C0;
+  
+}
+
+body.dark p.ty {
+  color: white;
+}
+
+body.dark .ty span {
+  color: white!important;
+  background-color: #0B1720;
+}
