@@ -109,6 +109,13 @@ nav img {
   height: 50px; /* Adjust as needed */
 }
 
+.hamburger-menu {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 body.light nav .dark {
   display: none;
 }
@@ -1425,4 +1432,47 @@ body.dark p.ty {
 body.dark .ty span {
   color: white!important;
   background-color: #0B1720;
+}
+
+/* Responsive Web Design */
+@media (max-width: 768px) {
+  .hamburger-menu {
+    display: block; /* Ensures the menu takes up full width */
+    position: absolute; /* Position it relative to the parent */
+    right: 0; /* Aligns it to the far right */
+    top: 0; /* Aligns it to the top */
+    padding: 10px; /* Adjust the padding as necessary */
+    cursor: pointer; /* Makes it clickable */
+    color: white;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: var(--main-red);
+    padding: 10px;
+    border-top: 1px solid white;
+    z-index: 1000;
+  }
+
+  body.dark .menu {
+    background-color: #3A2C40;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+
+  .menu li:last-child {
+    margin-bottom: 0;
+  }
 }
