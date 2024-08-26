@@ -1,6 +1,9 @@
+import React from 'react';
 import Recommendation from '../media/Recommendation_Letter-Sally_Mugisha_Wanga.pdf';
 
 export default function About() {
+       
+   
     return (
         <div className="about">
             <div className="intro">
@@ -33,7 +36,7 @@ export default function About() {
             </div>
 
             <div className="licenses">
-            <h3 className="roboto-flex">Licenses and Certifications</h3>
+            <h3 className="roboto-flex" >Licenses and Certifications</h3>
              <ul className="roboto-flex">
                 <li>  IBM Artificial Intelligence Fundamentals - July 2024         
                 </li>
@@ -74,6 +77,7 @@ export default function About() {
             <div className="experience">
             <h3 className="roboto-flex">Experience and Involvement</h3>
             <ul className="lusitana-regular">
+
                 <li>
                     <strong>Freelance Projects:</strong> I have gained extensive experience working remotely through various freelance projects. This has allowed me to hone my skills in self-management, communication, and delivering high-quality work without direct supervision.
                 </li>
