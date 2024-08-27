@@ -1,5 +1,7 @@
 import React from 'react';
 import Recommendation from '../media/Recommendation_Letter-Sally_Mugisha_Wanga.pdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faAward, faUserCheck, faCircleCheck, faWandMagicSparkles} from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
        
@@ -20,7 +22,7 @@ export default function About() {
             </div>
 
             <div className="recommendation">
-            <h3 className="roboto-flex">Recommendation</h3>
+            <h3 className="roboto-flex"> Recommendation <FontAwesomeIcon icon={faAward} /></h3>
             <p className="lusitana-regular">
             I am honored to share a recommendation letter I received from ALX for my role as a Volunteer Mentor in the AICE Program.
             </p>
@@ -36,9 +38,9 @@ export default function About() {
             </div>
 
             <div className="licenses">
-            <h3 className="roboto-flex" >Licenses and Certifications</h3>
+            <h3 className="roboto-flex" >Licenses and Certifications <FontAwesomeIcon icon={faUserCheck} /></h3>
              <ul className="roboto-flex">
-                <li>  IBM Artificial Intelligence Fundamentals - July 2024         
+                <li><FontAwesomeIcon icon={faCircleCheck} size="xs" />  IBM Artificial Intelligence Fundamentals - July 2024         
                 </li>
                 <a href="https://www.credly.com/badges/f4106ad3-1774-4dcc-8a69-43db18c82579/linked_in_profile"
                 target="_blank"
@@ -51,7 +53,7 @@ export default function About() {
 </svg></sup></a>
 
 
-                <li>Scrum for Operations and Devops Fundamentals - June 2024</li>
+                <li><FontAwesomeIcon icon={faCircleCheck} size="xs" />  Scrum for Operations and Devops Fundamentals - June 2024</li>
                 <a href="https://drive.google.com/file/d/1FgFBMpTz75_T_8XLcunz-zMG4bJEuEhK/view?usp=sharing"
                 target="_blank"
                 title="certificate"
@@ -61,7 +63,7 @@ export default function About() {
   <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
 </svg></sup></a>
              
-             <li>Azure Responsible AI Workshop Completion - March 2024</li>
+             <li><FontAwesomeIcon icon={faCircleCheck} size="xs" /> Azure Responsible AI Workshop Completion - March 2024</li>
              <a href="https://www.credly.com/badges/71c9c440-948b-4abc-bdbf-e08d7e01df99/linked_in_profile"
              target="_blank"
              title="certificate"
@@ -70,46 +72,58 @@ export default function About() {
   <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
 </svg></sup></a>
              </ul>
-
+             
             </div>
+            {/* <hr className="eol"/> */}
 
 
             <div className="experience">
-            <h3 className="roboto-flex">Experience and Involvement</h3>
+            <h3 className="roboto-flex">Experience and Involvement <FontAwesomeIcon icon={faWandMagicSparkles} /></h3>
             <ul className="lusitana-regular">
 
                 <li>
-                    <strong>Freelance Projects:</strong> I have gained extensive experience working remotely through various freelance projects. This has allowed me to hone my skills in self-management, communication, and delivering high-quality work without direct supervision.
+                    <strong>Freelance Projects</strong><br/>
+                     I have gained extensive experience working remotely through various freelance projects. This has allowed me to hone my skills in self-management, communication, and delivering high-quality work without direct supervision.
                 </li>
                 <li>
-                    <strong>Remote Teams:</strong> My experience working with remote teams has equipped me with a deep understanding of agile workflows. I have successfully collaborated on numerous projects using tools like Jira and Trello, ensuring smooth and efficient project delivery.
+                    <strong>Remote Teams</strong><br/>
+                     My experience working with remote teams has equipped me with a deep understanding of agile workflows. I have successfully collaborated on numerous projects using tools like Jira and Trello, ensuring smooth and efficient project delivery.
                 </li>
                 <li>
-                    <strong>Data Analytics at ALX:</strong> I am currently pursuing data analytics at ALX, where I am developing strong analytical skills and proficiency in tools such as MS Excel, Google Sheets, MySQL, and PowerBI. This training is enhancing my ability to make data-driven decisions and extract valuable insights from complex datasets.
+                    <strong>Data Analytics at ALX</strong><br/>
+                    I am currently pursuing data analytics at ALX, where I am developing strong analytical skills and proficiency in tools such as MS Excel, Google Sheets, MySQL, and PowerBI. This training is enhancing my ability to make data-driven decisions and extract valuable insights from complex datasets.
                 </li>
                 <li>
-                    <strong>Volunteer Mentor for AICE Programme at ALX:</strong> As a volunteer mentor for the AICE programme at ALX, I have had the opportunity to guide and support aspiring data analysts. This role has strengthened my leadership and mentoring skills, allowing me to make a positive impact on the learning journeys of others.
+                    <strong>Volunteer Mentor for AICE Programme at ALX</strong> <br/>
+                    As a volunteer mentor for the AICE programme at ALX, I have had the opportunity to guide and support aspiring data analysts. This role has strengthened my leadership and mentoring skills, allowing me to make a positive impact on the learning journeys of others.
                 </li>
                 <li>
-                    <strong>Member of the Atlassian Community in Nairobi:</strong> Being an active member of the Atlassian community in Nairobi has allowed me to network with like-minded professionals, stay updated with the latest industry trends, and share knowledge and experiences related to agile methodologies and project management tools.
+                    <strong>Member of the Atlassian Community in Nairobi</strong>
+                    <br/> Being an active member of the Atlassian community in Nairobi has allowed me to network with like-minded professionals, stay updated with the latest industry trends, and share knowledge and experiences related to agile methodologies and project management tools.
                 </li>
                 <li>
-                    <strong>SCRUM for Operations and DevOps Fundamentals Certifications:</strong> I have completed certifications in SCRUM for operations and DevOps fundamentals. These certifications have provided me with a solid foundation in agile practices and DevOps principles, enabling me to contribute effectively to high-performing teams.
+                    <strong>SCRUM for Operations and DevOps Fundamentals Certifications</strong>
+                    <br/> I have completed certifications in SCRUM for operations and DevOps fundamentals. These certifications have provided me with a solid foundation in agile practices and DevOps principles, enabling me to contribute effectively to high-performing teams.
                 </li>
                 <li>
-                    <strong>Tech Writer:</strong> I write as I learn, sharing my tech knowledge on my Medium blog. This platform allows me to document my learning journey, share insights with the community, and contribute to the collective knowledge base of the tech industry.
+                    <strong>Tech Writer</strong><br/>
+                     I write as I learn, sharing my tech knowledge on my Medium blog. This platform allows me to document my learning journey, share insights with the community, and contribute to the collective knowledge base of the tech industry.
                 </li>
                 <li>
-                    <strong>Microsoft Responsible AI Workshop:</strong> Attending the Microsoft Responsible AI Workshop has given me valuable insights into the ethical and responsible use of artificial intelligence. This knowledge is essential for developing AI solutions that are not only innovative but also ethical and socially responsible.
+                <strong>Microsoft Responsible AI Workshop</strong><br/>
+                 Attending the Microsoft Responsible AI Workshop has given me valuable insights into the ethical and responsible use of artificial intelligence. This knowledge is essential for developing AI solutions that are not only innovative but also ethical and socially responsible.
                 </li>
                 <li>
-                    <strong>IBM Fundamentals of AI Training:</strong> I have completed IBM's Fundamentals of AI training, which has equipped me with a strong understanding of AI concepts and applications. This training has been instrumental in advancing my AI and machine learning skills.
+                    <strong>IBM Fundamentals of AI Training</strong> <br/>
+                    I have completed IBM's Fundamentals of AI training, which has equipped me with a strong understanding of AI concepts and applications. This training has been instrumental in advancing my AI and machine learning skills.
                 </li>
                 <li>
-                <strong>Zindian:</strong> I'm a member of Zindi, where I seek to grow my Data Analytics Career through workshops, Microsoft Certifications and Hopefully in the near future, hackathons. They also have a wide talent pool and networking opportunities where I have met many friends and professional connections.
+                <strong>Zindian</strong> <br/>
+                I'm a member of Zindi, where I seek to grow my Data Analytics Career through workshops, Microsoft Certifications and Hopefully in the near future, hackathons. They also have a wide talent pool and networking opportunities where I have met many friends and professional connections.
                 </li>
                 <li>
-                    <strong>Powerlearn Project:</strong> I am currently learning new technologies, namely Python and Flutter, through the Powerlearn project. This continuous learning journey allows me to stay updated with the latest advancements in technology and expand my skill set in software development and data analysis.
+                    <strong>Powerlearn Project</strong><br/>
+                     I am currently learning new technologies, namely Python and Flutter, through the Powerlearn project. This continuous learning journey allows me to stay updated with the latest advancements in technology and expand my skill set in software development and data analysis.
                 </li>
             </ul>
             </div>
