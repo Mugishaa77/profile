@@ -160,6 +160,12 @@ nav ul li a.active {
   
 }
 
+body.dark nav ul li a.active {
+  color: var(--marigold);
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
 nav svg {
   padding-bottom: 5px;
 }
