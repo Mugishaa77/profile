@@ -1,5 +1,5 @@
 :root {
-  --main-red : #4F2730;
+  --main-red :#00274D;
   --strawberry: #FEA498;
   --navlinks: #C6A1AC;
   --marigold: #E8E7D5;
@@ -103,6 +103,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
+  background-color: #00274D;
 }
 
 nav img {
@@ -140,10 +141,12 @@ nav ul li a {
   padding: 10px 20px;
   display: block;
   transition: background-color 0.3s, color 0.3s;
+  color: var(--marigold);
+  color: #B8A48D;
 }
 
 nav ul li a:hover {
-  background-color: #F4C2C2; /* Soft Blush Pink background on hover */
+  background-color: var(--marigold); /* Soft Blush Pink background on hover */
   color: #2D4031; /* Dark Green text color */
 }
 
@@ -181,9 +184,10 @@ nav .drop a:hover {
 
 /* Active Link Styles */
 nav ul li a.active {
-  color: var(--strawberry);
+  color: var(--navlinks);
   font-weight: bold;
   text-decoration: underline;
+  
 }
 
 nav svg {
@@ -230,7 +234,8 @@ nav svg {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 20px;
-    color: var(--main-red);
+   color: var(--main-red);
+   color: #00274D;
 }
 
 .home-subtitle {
@@ -240,6 +245,8 @@ nav svg {
     opacity: 0.9;
     line-height: 1.5;
     margin-bottom: 20px;
+    color: #B8A48D;
+   
 }
 
 .home-bio {
@@ -249,6 +256,7 @@ nav svg {
     color:var(--main-red) ;
     text-transform: capitalize;
     padding: 1rem;
+    
 }
 
 .cta-buttons {
@@ -257,9 +265,9 @@ nav svg {
 }
 
 .cta-buttons .btn {
-    font-size: 1em;
-   color: #D5CCB4;
-   background-color:#906A74;
+  font-size: 1em;
+   color: var(--main-red);
+   background-color: var(--marigold);
     padding: 10px 20px;
     margin: 0 10px;
     text-decoration: none;
@@ -274,6 +282,7 @@ nav svg {
 
 .social-links a {
     color: var(--strawberry);
+    color: var(--marigold);
     background-color: var(--main-red);
     text-decoration: none;
     padding: 1rem;
@@ -291,19 +300,31 @@ nav svg {
 /* About */
 .about {
     padding: 1rem;
-
+   
 }
 
 .about h2 {
     font-size: 2em;
     text-align: center;
-    color: var(--main-red);
-    
+    color: #00274D;
+  
+   
+}
+
+.about .professional-summary{
+  font-size: 1.2em;
+ margin: 1rem;
+ margin-top: 0;
+ /* color: #B8A48D;*/
+  color: #34858F;
+ 
+ 
 }
 
 .about p {
     font-size: 1.2em;
    color: #003366;
+  
    
      
     
@@ -312,13 +333,7 @@ nav svg {
 .about h3 {
   color: var(--main-red);
 }
-.about .professional-summary{
-    font-size: 1.2em;
-   margin: 1rem;
-   color: #00274D;
-  
-   
-}
+
 
 .professional-summary p {
   font-weight: bold;
@@ -338,6 +353,7 @@ nav svg {
 
 .recommendation:hover {
  transform: translateY(-2px);
+ box-shadow: 3px 3px 5px 0 var(--marigold);
   /* Slight lift on hover */
 }
 
@@ -746,8 +762,56 @@ nav svg {
   text-align: center;
 }
 
+@media (max-width: 768px) {
 
+  
+  .atlas-home img  {
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: block;
+    margin: 0 auto;
+  }
 
+  ul.auction-features {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .auction-features li {
+  width: 100%;
+  padding: 1rem;
+  display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+
+  .auction-features img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+   
+  }
+
+  .atlas-contact-image {
+    width: 100%;
+  }
+
+  
+  .atlas-contact-image img {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
 /* Evergreen */
 
 .evergreen {
@@ -953,26 +1017,63 @@ nav svg {
 .projects {
   background-color: var(--marigold);
 }
+
+@media (max-width: 768px) {
+   .evergreen h1 {
+    font-size: 50px;
+   }
+
+  .evergreen-home,
+  .evergreen-market,
+  .evergreen-basket,
+  .evergreen-checkout,
+  .evergreen-clear,
+  .evergreen-login,
+  .evergreen-dashboard {
+    padding: 0;
+    margin: 1rem;
+    max-width: 100%;
+  }
+
+  .evergreen-checkout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .evergreen-home img,
+  .evergreen-market img,
+  .evergreen-basket img,
+  .evergreen-checkout img,
+  .evergreen-clear img,
+  .evergreen-login img,
+  .evergreen-dashboard img {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;;
+    width: 100%;
+    height: auto;
+  }
+}
 /* Contact */
  /* Contact */
 .contact {
   background-color: #FFE6E6;
   padding: 1rem;
   box-shadow: 2px 2px 2px 2px white;
+  background-color: var(--marigold);
 }
  .contact .ty {
   padding: 1rem;
   text-align: center;
   font-size: 24px;
-  color: var(--navlinks);
+  color: var(--main-red);
   background-color: white;
   margin: 1rem;
   border-radius: 50px;
-  box-shadow: 0 1px 2px var(--navlinks);
+  box-shadow: 0 1px 2px #B8A48D;
 }
 
 .ty span {
-  background-color: var(--main-red);
   margin: 0.5rem;
   padding: 0.5rem;
   padding-right: 0.8rem;
@@ -1000,7 +1101,7 @@ nav svg {
   color: var(--neutral-dark); /* charcoal */
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 4px var(--navlinks);
+  box-shadow: 0 2px 4px #B8A48D;
   max-width: 400px;
   font-family: 'Lusitana', serif; /* or whichever font you are using */
   text-align: center; 
@@ -1021,7 +1122,9 @@ margin-bottom: 0;
  margin-bottom: 1rem;
  font-size: 22px;
  font-weight: bold;
- color: var(--strawberry);
+ color: #B8A48D;
+
+ 
 }
 
 .phone-number:hover {
@@ -1045,6 +1148,7 @@ margin-bottom: 0;
   font-size: 21px;
   padding-top: 0;
   margin-top: 0;
+  color: #B8A48D;
 }
 
 .email a:hover {
@@ -1072,7 +1176,7 @@ margin-bottom: 0;
 .prof-profiles a,
 .hobby a {
   color: var(--strawberry);
-  
+  color: #B8A48D;
 }
 
 .prof-profiles a:hover,
@@ -1094,6 +1198,7 @@ margin-bottom: 0;
 
 .contact-info .cv {
   color: var(--strawberry);
+  color: #B8A48D;
  font-size: 22px;
  
 }
@@ -1321,14 +1426,14 @@ body.dark .evergreen-card:hover {
 /* Dark Mode Configuration */
 
 button.toggle-mode {
-color: var(--strawberry);
-background-color: var(--main-red);
-border: 1px solid var(--main-red);
+color: #D5CCB4;
+background-color: #00274D;
+border: 1px solid #00274D;
 
 }
 
 button.toggle-mode:hover {
-  color: var(--strawberry);
+  color: var(--marigold);
   transition: all .2s ease-in-out;
 }
 
@@ -1340,7 +1445,7 @@ body.dark button.toggle-mode {
   }
   
  body.dark button.toggle-mode:hover {
-    color: var(--strawberry);
+    color: var(--teal);
     transition: all .2s ease-in-out;
   }
 
@@ -1592,20 +1697,32 @@ body.dark .thankyou {
   }
 
   .recommendation {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .experience {
+    max-width: 100%;
     padding: 0;
   }
 
-  .button-container {
+  .experience h3 {
     text-align: center;
   }
 
   .licenses {
     padding: 0;
+    margin: 1rem;
+    padding-bottom: 0.5rem;
   
   }
 
   .licenses ul {
     margin: 0;
+  }
+
+  .technologies h3 {
+    text-align: center;
   }
 
  .technologies .icons {
@@ -1625,6 +1742,11 @@ body.dark .thankyou {
 
   .projects {
     background-color: var(--marigold);
+  }
+
+  .outro h3,
+  .redirect h3 {
+    text-align: left;
   }
 
   .projects ul {

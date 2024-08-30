@@ -134,9 +134,9 @@ export default function Contact () {
           </div>
           <p className="lusitana-bold ty">
           <span> 
-            <FontAwesomeIcon icon={faHeart} beat size="sm" style={{color: "#C6A1AC",}} /></span>
+            <FontAwesomeIcon icon={faHeart} beat size="sm" style={{color: "#B8A48D",}} /></span>
                 Thankyou for taking time to go though my profile 
-                <span> <FontAwesomeIcon icon={faHeart} beat size="sm" style={{color: "#C6A1AC",}} /></span>
+                <span> <FontAwesomeIcon icon={faHeart} beat size="sm" style={{color: "#B8A48D",}} /></span>
             </p> 
         </div>
     );
