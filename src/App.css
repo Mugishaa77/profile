@@ -404,6 +404,11 @@ nav svg {
    
   }
 
+  .experience:hover {
+    box-shadow: -3px -3px 5px 0 #B8A48D;
+    transform: translate(-2px);
+  }
+
   .experience h3 {
     padding: 1rem;
     color: #B8A48D;
@@ -1035,9 +1040,9 @@ nav svg {
   padding: 1rem;
   text-align: center;
   font-size: 24px;
-  color: var(--main-red);
-  background-color: white;
+  color: #4A4A4A;
   margin: 1rem;
+  margin-top: 5rem;
   border-radius: 50px;
   box-shadow: 0 1px 2px #B8A48D;
 }
@@ -1080,6 +1085,11 @@ nav svg {
 
 }
 
+.contact-info:hover {
+  box-shadow: -2px 2px 2px #B8A48D;
+  transform: translate(-2px);
+}
+
 .contact-info h2 {
 color: #4A4A4A;
 padding-bottom: 0;
@@ -1097,7 +1107,7 @@ margin-bottom: 0;
 }
 
 .phone-number:hover {
-  color: var(--navlinks);
+  color: var(--strawberry);
   text-decoration: underline;
 }
 
@@ -1121,7 +1131,7 @@ margin-bottom: 0;
 }
 
 .email a:hover {
-  color: var(--navlinks);
+ color: var(--strawberry);
 }
 
 .contact-info h4,
@@ -1150,7 +1160,7 @@ margin-bottom: 0;
 
 .prof-profiles a:hover,
 .hobby a:hover {
-  color: var(--navlinks)
+  color: var(--strawberry);
 
 }
 
@@ -1173,7 +1183,7 @@ margin-bottom: 0;
 }
 
 .contact-info .cv:hover {
-  color: var(--navlinks)
+  color: var(--strawberry);
 
 }
 

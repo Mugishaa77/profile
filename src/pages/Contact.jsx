@@ -1,7 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Join from './../media/join.jpeg';
-import Build from './../media/build.jpeg';
-import Connect from './../media/connect.jpeg';
 import Sally from './../media/SallyWangaResume.pdf';
 import {faHeart, faPhone} from '@fortawesome/free-solid-svg-icons';
 
@@ -125,13 +122,6 @@ export default function Contact () {
 
              
             </div>
-            
-            
-          <div className="thankyou">
-          <img src={Join}/>
-            <img src={Build}/>
-           <img src={Connect}/>
-          </div>
           <p className="lusitana-bold ty">
           <span> 
             <FontAwesomeIcon icon={faHeart} beat size="sm" style={{color: "#B8A48D",}} /></span>
