@@ -17,7 +17,8 @@ export default function Navbar({ toggleTheme, theme }) {
   return (
     <nav className="lusitana-bold">
       <div className="logo-container">
-        <img src={theme === 'light' ? Mugisha : MugishaDark} alt="Mugisha" />
+        <a href="/">
+        <img src={theme === 'light' ? Mugisha : MugishaDark} alt="Mugisha" /></a>
         <button
           className="hamburger-menu"
           onClick={handleMenuToggle}
