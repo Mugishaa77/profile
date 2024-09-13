@@ -990,7 +990,7 @@ nav svg {
   color: orangered;
 }
 .projects {
-  background-color: var(--marigold);
+  background-color: white;
 }
 
 @media (max-width: 768px) {
@@ -1330,6 +1330,7 @@ body.dark .evergreen-card:hover {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 15px;
+  
 }
 
 .evergreen-summary p {
