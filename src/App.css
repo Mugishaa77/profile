@@ -1384,8 +1384,8 @@ body.dark .evergreen-card:hover {
 /* Projects */
 .projects ul {
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
   margin: 0 auto;
 }
 

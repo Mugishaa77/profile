@@ -15,8 +15,8 @@ export default function DarasaniCard () {
             <div className="atlas-summary">
                 <p><strong>Overview:</strong> A website that serves as a platform to connect tutors and students, 
                 allowing one to make a preferred selection.</p>
-                <p><strong>Key Features:</strong> Includes a Find Tutor Page, Become a Tutor,
-                Library of materials, Accessibility features and User Authentification.</p>
+                <p><strong>Key Features:</strong> <strong style={{color: 'blue'}}>Accessibility Features</strong>. Also Includes a Find Tutor Page, Become a Tutor,
+                Library of materials and User Authentification.</p>
                 <p><strong>Tech Stack:</strong>(Front-End) React.js, Html, Css, Bootstrap and Tailwind CSS</p>
             </div>
             <div className="atlas-links">
