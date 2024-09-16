@@ -256,18 +256,33 @@ nav svg {
     color: var(--main-red);
 }
 
+.social-links {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  text-align: center;
+ 
+}
 .social-links a {
-    color: var(--strawberry);
-    color: var(--marigold);
-    background-color: var(--main-red);
-    text-decoration: none;
-    padding: 1rem;
-    margin: 0.5rem;
-    border-radius: 60px;
-    border: 2px solid #D5CCB4;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  color: var(--main-red)
 }
 
 .social-links a:hover {
+  color: var(--strawberry)
+}
+.social-links span {
+    color: var(--main-red);
+   background-color: var(--marigold);
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 60px;
+    border:1px solid var(--main-red);
+}
+
+.social-links span:hover {
   background-color: var(--strawberry);
     color: var(--main-red);
     
@@ -1143,8 +1158,8 @@ margin-bottom: 0;
   margin-bottom: 0;
 }
 
-.prof-profiles,
-.hobby {
+.prof-profiles ,
+.hobby  {
   padding: 5px;
   display: flex;
   justify-content: center; /* Center the items horizontally */
