@@ -96,14 +96,15 @@
 
 /* Navbar */
 nav {
-  background-color: var(--main-red); /* Dark background */
+  background-color: #025B94; /* Dark background */
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  background-color: #00274D;
+ 
+  
 }
 
 nav img {
@@ -136,32 +137,28 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--navlinks);
   text-decoration: none;
   padding: 10px 20px;
   display: block;
   transition: background-color 0.3s, color 0.3s;
-  color: var(--marigold);
-  color: #B8A48D;
+  color: white;
 }
 
 nav ul li a:hover {
-  background-color: var(--marigold); /* Soft Blush Pink background on hover */
+  background-color: #BDD8E6; /* Soft Blush Pink background on hover */
   color: #2D4031!important; /* Dark Green text color */
 }
 
 
 /* Active Link Styles */
 nav ul li a.active {
-  color: var(--navlinks);
-  font-weight: bold;
   text-decoration: underline;
-  color: var(--marigold);
-  
+  color: #92D1E4;
+ 
 }
 
 body.dark nav ul li a.active {
-  color: var(--marigold);
+  color: white;
   font-weight: bold;
   text-decoration: underline;
   
@@ -194,22 +191,28 @@ nav svg {
 /* Home */
 .home {
     text-align: center;
-    padding: 50px;
+   padding: 2rem;
     background-color: white;
+  }
+
+  .home h3 {
+   color: #B8A48D;
   }
 
 .profile-picture {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
+   
+   
 }
 
 
 .home-title {
     font-size: 2.5em;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
    color: var(--main-red);
    color: #00274D;
 }
@@ -1488,16 +1491,21 @@ body.dark .home .cta-buttons a:hover {
   color: white;
 }
 
-body.dark .social-links a {
+body.dark .social-links span {
   background-color: var(--teal);
   color: #0B1720;
   border: 2px solid white;
 }
 
+body.dark .social-links a {
+  color: white;
+}
 body.dark .social-links a:hover {
   background-color: white;
-  border: 2px solid var(--teal);
+  border: 1px solid var(--teal);
   color: #84B3C0;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 body.dark h2 {

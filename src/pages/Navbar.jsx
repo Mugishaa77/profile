@@ -15,7 +15,7 @@ export default function Navbar({ toggleTheme, theme }) {
   };
 
   return (
-    <nav className="lusitana-bold">
+    <nav className="lusitana-regular">
       <div className="logo-container">
         <a href="/">
         <img src={theme === 'light' ? Mugisha : MugishaDark} alt="Mugisha" /></a>

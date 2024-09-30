@@ -3,10 +3,12 @@ import Siz from '../media/tech_siz.jpeg';
 export default function Home() {
     return (
         <div className="home">
-            <img src={Siz} alt="Sally Wanga" className="profile-picture" />
+           
             <h1 className="home-title lusitana-regular">
                 Hi, My Name is Sally Wanga
             </h1>
+            <h3 className="poppins-regular">I'm a Software Developer!</h3>
+            <img src={Siz} alt="Sally Wanga" className="profile-picture" />
             <h2 className="home-subtitle roboto-flex">
             Welcome to my profile
             </h2>
