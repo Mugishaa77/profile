@@ -188,15 +188,25 @@ nav svg {
   }
 }
 
+
+
 /* Home */
 .home {
+   padding: 1rem;
+   display: flex;
+   background: linear-gradient(to right, #ffffff, #E3F1FF);
+  }
+
+  
+  .home-one {
     text-align: center;
-   padding: 2rem;
-    background-color: white;
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
   }
 
   .home h3 {
-   color: #B8A48D;
+    color: #71B6D2;
   }
 
 .profile-picture {
@@ -204,6 +214,7 @@ nav svg {
     height: 180px;
     border-radius: 50%;
     margin-bottom: 0.5rem;
+    margin: 1rem;
    
    
 }
@@ -213,8 +224,7 @@ nav svg {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 10px;
-   color: var(--main-red);
-   color: #00274D;
+  color: var(--main-red)
 }
 
 .home-subtitle {
@@ -224,8 +234,18 @@ nav svg {
     opacity: 0.9;
     line-height: 1.5;
     margin-bottom: 20px;
-    color: #B8A48D;
+    color: var(--main-red);
+    text-decoration: underline;
    
+}
+
+.home-two {
+  border-left: 2px solid #71B6D2;
+  text-align: center;
+  flex: 1;
+  
+
+
 }
 
 .home-bio {
@@ -238,32 +258,14 @@ nav svg {
     
 }
 
-.cta-buttons {
-    margin-bottom: 2rem;
-    padding: 1rem;
-}
 
-.cta-buttons .btn {
-  font-size: 1em;
-   color: var(--main-red);
-   background-color: var(--marigold);
-    padding: 10px 20px;
-    margin: 0 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid #D5CCB4;
-}
-
-.cta-buttons .btn:hover {
-    background-color: var(--strawberry);
-    color: var(--main-red);
-}
 
 .social-links {
   display: flex;
-  justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
-  text-align: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  text-align: left;
+
  
 }
 .social-links a {
@@ -277,18 +279,58 @@ nav svg {
 }
 .social-links span {
     color: var(--main-red);
-   background-color: var(--marigold);
+   background-color:white;
     text-decoration: none;
     padding: 0.5rem;
     margin: 0.5rem;
     border-radius: 60px;
-    border:1px solid var(--main-red);
+    border:2px solid var(--main-red);
 }
 
 .social-links span:hover {
   background-color: var(--strawberry);
     color: var(--main-red);
     
+}
+
+@keyframes fade-slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Starts 20px below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Ends at the original position */
+  }
+}
+
+
+
+.social-links a {
+  display: block;
+  opacity: 0; /* Start with invisible links */
+  animation: fade-slide-in 1.2s ease-out forwards;
+  transform-origin: top left;
+}
+
+.social-links a:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.social-links a:nth-child(2) {
+  animation-delay: 0.7s;
+}
+
+.social-links a:nth-child(3) {
+  animation-delay: 1.2s;
+}
+
+.social-links a:nth-child(4) {
+  animation-delay: 1.7s;
+}
+
+.social-links a:nth-child(5) {
+  animation-delay: 2.2s;
 }
 
 /* About */
