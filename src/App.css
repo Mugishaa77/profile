@@ -227,15 +227,13 @@ nav svg {
 
 .social-icons a {
   font-size: 2rem;
-  color: #444;
   margin: 0 10px;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #6b46c1;
+  color: #6b46c1!important;
 }
-
 /* Portfolio Links Section */
 .portfolio-links {
   display: flex;
@@ -315,13 +313,9 @@ nav svg {
 }
 
 .about .professional-summary{
-  font-size: 1.2em;
- margin: 1rem;
- margin-top: 0;
- /* color: #B8A48D;*/
-  color: #34858F;
- 
- 
+  font-size: 1.2rem;
+  color: #666;
+  margin: 1rem; 
 }
 
 .about p {

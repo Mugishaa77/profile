@@ -1,0 +1,56 @@
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  padding-top: 5px;
+}
+
+.services .h {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.service-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.services .icon {
+  font-size: 30px;
+  color: #8FCCE1;
+  margin-bottom: 2px;
+}
+
+.services h3 {
+    font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.services p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+  
+  
+  
