@@ -18,7 +18,7 @@ const projects = [
       {
         id: 2,
         name: "Jawabu Events",
-        description: "An event booking website providing seamless service reservations and location-based listings.",
+        description: "An events booking website providing seamless service reservations and location-based listings.",
         features: ["Event Booking System", "Service Listings", "Contact Page"],
         techStack: ["React.js", "HTML", "CSS", "Bootstrap"],
         image: jawabuOne,

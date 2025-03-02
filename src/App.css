@@ -211,13 +211,15 @@ nav svg {
 .portfolio-header h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #333;
+  color: "#6B46C1";
 }
 
 .portfolio-header p {
   font-size: 1.2rem;
   color: #666;
   margin-top: 5px;
+  
+ 
 }
 
 /* Social Links */

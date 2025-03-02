@@ -98,6 +98,8 @@
     font-size: 17px;
     color: #555;
     margin: 12px 0;
+    text-align: left;
+    color: #212529;
   }
 
   .project-features {

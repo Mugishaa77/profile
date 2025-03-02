@@ -7,7 +7,7 @@ export default function ProjectCard({ project }) {
         </div>
         <div className="project-content">
           <h2 className="project-title">{project.title}</h2>
-          <p className="project-description">{project.description}</p>
+          <p className="project-description lusitana-regular">{project.description}</p>
   
           {/* 🔹 Display Features as a List */}
           <h6> Key Features</h6>
