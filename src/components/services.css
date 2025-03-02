@@ -71,6 +71,76 @@
   flex-grow: 1;
 }
 
-  
-  
+/* Dark Mode */
+body.dark .services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #181818;
+  padding-top: 1rem;
+}
+
+body.dark .services .h {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+  position: relative;
+  color: #f0f0f0;
+  padding: 1rem;
+}
+
+/* Add a subtle bottom border for the title */
+body.dark .services .h::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #EDA3B9;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+body.dark .service-card {
+  background: #2b2b2b;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(252, 223, 255, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  border: 1px solid #FCDFFF;
+}
+
+body.dark .service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+body.dark .services .icon {
+  font-size: 30px;
+  color: #EDA3B9;
+  margin-bottom: 2px;
+}
+
+body.dark .services h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+body.dark .services p {
+  font-size: 1rem;
+  color: #aaa;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+ 
   

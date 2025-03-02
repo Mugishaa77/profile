@@ -9,11 +9,6 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contacts from './pages/Contact';
 
-// Projects
-import Atlas from './projects/Atlas';
-import Evergreen from './projects/Evergreen';
-import Darasani from './projects/Darasani';
-
 function App() {
   const [theme, setTheme] = useState('light');
 
@@ -34,9 +29,6 @@ function App() {
           <Route path="/about" exact element={<About />} />
           <Route path="/projects" exact element={<Projects />} />
           <Route path="/contact" exact element={<Contacts />} />
-          <Route path="/atlas" exact element={<Atlas />} />
-          <Route path="/evergreen" exact element={<Evergreen />} />
-          <Route path="/darasani" exact element={<Darasani />} />
         </Routes>
       </BrowserRouter>
     </div>
