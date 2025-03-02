@@ -238,7 +238,7 @@ body.dark .project-image {
   height: 200px; /* Adjust as needed */
   overflow: hidden;
   border-radius: 5px;
-  border: 1px solid #F7F7F7;
+  border: none;
 }
 
 body.dark .project-image img {
