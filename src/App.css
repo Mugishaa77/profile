@@ -543,109 +543,6 @@ nav svg {
   color: #0055aa;
   border-color: #0055aa;
 }
-
-
-/*  */
-    .technologies {
-        margin: 1rem;
-       
-    }
-  
-    .technologies h3 {
-        text-align: center;
-        font-size: 1.5rem;
-
-    }
-
-    .icons {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 20px;
-        margin: 20px 0;
-       padding: 0.5rem;
-       background-color: #f9f9f9;
-    }
-    
-    .icons i {
-        font-size: 32px;
-    }
-  
-    .outro {
-        padding: 1rem;
-        margin: 1rem;       
-       
-        
-    }
-
-    .outro h3 {
-        text-align: left;
-    }
-
-    .outro p {
-      opacity: 0.9;
-    }
-
-    .outro a {
-      color: var(--teal);
-    }
-
-    .outro a:hover {
-      color: var(--navlinks)
-    }
-
-    .redirect {
-        margin: 1rem;
-        padding: 1rem;
-   
-        
-    }
-
-    .redirect h3 {
-        text-align: left;
-    }
-
-    .redirect a {
-        font-size: 1.5em;
-        margin-left: 1rem;
-        color: var(--teal);
-    }
-
-    .redirect a:hover {
-        color: var(--navlinks);
-    }
-
-    /* Icons */
-    @keyframes slide {
-      from {
-        transform: translateX(0%);
-      }
-      to {
-        transform: translateX(-50%);
-      }
-    }
-    
-    .technologies {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      padding-top: 20px;
-      margin-top: 25px;
-      margin-bottom: 30px;
-    }
-    
-    .icons {
-      display: flex;
-      width: 200%;
-      height: 70px;
-      animation: slide 30s linear infinite;
-    }
-    
-    .icons i {
-      font-size: 3rem; /* Adjust the size as needed */
-      margin-left: 45px;
-    }
-    
    
 /* Atlas */
 .atlas {
@@ -1145,171 +1042,139 @@ nav svg {
   }
 }
 /* Contact */
- /* Contact */
+/* Contact Section Styling */
 .contact {
-  background-color: #FFE6E6;
   padding: 1rem;
-  box-shadow: 2px 2px 2px 2px white;
-  background-color: var(--marigold);
 }
- .contact .ty {
-  padding: 1rem;
+
+.contact .intro-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 20px;
+  background: #fdfdfd;
+  border-radius: 8px;
+  border-left: 4px solid #8fcce1;
+}
+
+.contact-form {
   text-align: center;
-  font-size: 24px;
-  color: #4A4A4A;
-  margin: 1rem;
-  margin-top: 5rem;
-  border-radius: 50px;
-  box-shadow: 0 1px 2px #B8A48D;
-}
-
-.ty span {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  padding-right: 0.8rem;
-  border-radius: 50px;
-}
-
-.contact img {
-  height: 300px;
-  width: auto;
- border-radius: 12px;
- margin: 20px;
- box-shadow: 2px 2px 5px lightgray;
-}
-
-.contact .thankyou {        
-  display:block;
-  margin: 0 auto;
-  padding: 2rem;
-
-
-}
-
-.contact-info {
-  background-color:white; /* light ivory */
-  color: var(--neutral-dark); /* charcoal */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px #B8A48D;
-  max-width: 400px;
-  font-family: 'Lusitana', serif; /* or whichever font you are using */
-  text-align: center; 
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  
-
-}
-
-.contact-info:hover {
-  box-shadow: -2px 2px 2px #B8A48D;
-  transform: translate(-2px);
-}
-
-.contact-info h2 {
-color: #4A4A4A;
-padding-bottom: 0;
-margin-bottom: 0;
-
-}
-
-.phone-number {
- margin-bottom: 1rem;
- font-size: 22px;
- font-weight: bold;
- color: #B8A48D;
-
- 
-}
-
-.phone-number:hover {
-  color: var(--strawberry);
-  text-decoration: underline;
-}
-
-.email {
   padding: 1rem;
+  margin: 1rem;
 }
 
-.email h3 {
-  padding: 0;
-  margin: 0;
-  color: #4A4A4A;
-
+.contact-form .h {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
 }
 
-.email a {
-  color: var(--strawberry);
-  font-size: 21px;
-  padding-top: 0;
-  margin-top: 0;
-  color: #B8A48D;
+.contact-form .h {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
 }
 
-.email a:hover {
- color: var(--strawberry);
+/* Add a subtle bottom border for the title */
+.contact-form .h::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #6B46C1;
+  margin: 5px auto 0;
+  border-radius: 2px;
 }
 
-.contact-info h4,
-.contact-info h5 {
-  padding-top: 0.5rem;
-  color: #4A4A4A;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-.prof-profiles ,
-.hobby  {
-  padding: 5px;
+.contact-form form {
   display: flex;
-  justify-content: center; /* Center the items horizontally */
-  align-items: center; /* Center the items vertically */
-  gap: 20px; /* Add some space between the items */
-  padding-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  
 }
 
-.prof-profiles a,
-.hobby a {
-  color: var(--strawberry);
-  color: #B8A48D;
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
 }
 
-.prof-profiles a:hover,
-.hobby a:hover {
-  color: var(--strawberry);
-
+.contact-form button {
+  background: #8fcce1;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  background: linear-gradient(135deg, #805ad5, #8fcce1);
 }
 
-.twitter h4 {
-  color: #4A4A4A;
-  padding: 0;
-  margin: 0;
+.contact-form button:hover {
+  background: #6aa9c9;
 }
 
-.cv-d {
-  text-transform: uppercase;
-  padding-top: 1rem;
+.contact-details {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
 }
 
-.contact-info .cv {
-  color: var(--strawberry);
-  color: #B8A48D;
- font-size: 22px;
+.contact-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 250px;
+  border: 1px solid #FCDDFC;
+  border-left: 3px solid #FCDDFC;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card p {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555;
+  border-bottom: 2px solid #8FCCE1;
+  padding-bottom: 2px;
+}
+
+.contact-card svg {
+  font-size: 2rem;
+  color: #6b46c1;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.contact-card a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 10px;
  
-}
-
-.contact-info .cv:hover {
-  color: var(--strawberry);
-
-}
-
-.thankyou {
-  display: flex;
-  justify-content: center; /* Centers the images horizontally */
-  align-items: center; /* Centers the images vertically */
-  gap: 10px; /* Adjust the space between the images */
-  margin: 0 auto; /* Centers the entire div within its container */
-  width: fit-content; /* Ensures the div only takes up as much space as necessary */
 }
 
 
