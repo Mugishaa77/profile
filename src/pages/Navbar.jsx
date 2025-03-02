@@ -15,10 +15,12 @@ export default function Navbar({ toggleTheme, theme }) {
   };
 
   return (
-    <nav className="lusitana-regular">
+   <div style={{ backgroundColor: 'rgba(5, 1, 59, 0.1)' }}>
+     <nav className="lusitana-regular">
       <div className="logo-container">
         <a href="/">
-        <img src={theme === 'light' ? Mugisha : MugishaDark} alt="Mugisha" /></a>
+        {/* <img src={theme === 'light' ? Mugisha : MugishaDark} alt="Mugisha" /> */}
+        </a>
         <button
           className="hamburger-menu"
           onClick={handleMenuToggle}
@@ -80,5 +82,6 @@ export default function Navbar({ toggleTheme, theme }) {
         </li>
       </ul>
     </nav>
+   </div>
   );
 }

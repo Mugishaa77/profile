@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="home-container">
@@ -34,6 +34,10 @@ export default function Home() {
       <a href="https://www.linkedin.com/in/swugisha/" target="_blank" rel="noopener noreferrer" className="primary-btn" title="View My LinkedIn">View my LinkedIn</a>
       <a href="https://github.com/Mugishaa77" target="_blank" rel="noopener noreferrer" className="secondary-btn" title="Visit My GitHub">Visit my GitHub</a>
       <a href="/contact" target="_blank" rel="noopener noreferrer" className="primary-btn" title="Contact Me">Get in Touch</a>
+    </div>
+
+    <div>
+    <Footer />
     </div>
   </div>
   );

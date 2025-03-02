@@ -97,6 +97,9 @@
 /* Navbar */
 nav {
   background-color: #025B94; /* Dark background */
+  background-image: url('./media/light.jpeg');
+  background-repeat: repeat-x;
+  object-fit: cover;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -686,18 +689,19 @@ nav svg {
 
 button.toggle-mode {
 color: white;
-background-color: #025B94;
-border: 1px solid #025B94;
+background-color: #574460;
+border: 1px solid #574460;
 
 }
 
 button.toggle-mode:hover {
   color: var(--marigold);
   transition: all .2s ease-in-out;
+  box-shadow: 0 0 10px white;
 }
 
 body.dark button.toggle-mode {
-  color: var(--marigold);
+  color:  var(--strawberry);
   background-color: #3A2C40;
   border: 1px solid #3A2C40;
   
@@ -706,6 +710,7 @@ body.dark button.toggle-mode {
  body.dark button.toggle-mode:hover {
     color: var(--teal);
     transition: all .2s ease-in-out;
+    box-shadow: 0 0 10px var(--strawberry);
   }
 
 body.dark {
@@ -716,6 +721,8 @@ body.dark {
 /* Home */
 body.dark nav {
   background-color: #3A2C40;
+  background-image: url('./media/berries.jpeg');
+  background-repeat: repeat-x;
 }
 
 body.dark nav .light {
@@ -723,7 +730,7 @@ body.dark nav .light {
 }
 
 body.dark nav ul li a {
-  color:  #84B3C0;
+  color:  var(--strawberry);
 }
 
 body.dark nav ul li a:hover {

@@ -10,7 +10,7 @@ const projects = [
         name: "Datadrive",
         description: "A logistics optimization platform utilizing real-time data for efficient fleet and delivery management.",
         features: ["Real-Time Route Optimization", "Fleet Management", "Delivery Management"],
-        techStack: ["React.js", "Typescript", "Tailwind CSS" , "Axios","SCSS"],
+        techStack: ["React.js", "Typescript", "Vite", "Tailwind CSS" , "Axios","SCSS"],
         image: datadrive,
         liveLink: "https://datadrive.africa/",
         codeLink: "https://github.com/DataDrive-africa"
@@ -50,7 +50,7 @@ const projects = [
       name: "Evergreen Shopping Basket",
       description: "An online shopping platform for fresh market produce with an integrated shopping cart system.",
       features: ["Product Listings", "Shopping Basket", "Checkout System"],
-      techStack: ["React.js", "HTML", "CSS", "Bootstrap", "MongoDB"],
+      techStack: ["React.js", "HTML", "CSS", "Bootstrap", "MongoDB, Express.js, Jwt, Node.js"],
       image: EvergreenHome,
       liveLink: "https://new-evergreen.vercel.app/",
       codeLink: "https://github.com/Mugishaa77/new-evergreen"
