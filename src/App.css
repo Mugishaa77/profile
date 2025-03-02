@@ -1062,3 +1062,131 @@ body.dark .quick-card a:hover {
   color: #5f88a1;
   border-color: #5f88a1;
 }
+
+/* Dark Mode */
+body.dark .contact {
+  padding: 1rem;
+}
+
+body.dark .contact .intro-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 20px;
+  background: #2c2c2c;
+  border-radius: 8px;
+  border-left: 4px solid #8fcce1;
+}
+
+body.dark .contact-form {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+body.dark .contact-form .h {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  color: #f0f0f0;
+}
+
+/* Add a subtle bottom border for the title */
+body.dark .contact-form .h::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #6B46C1;
+  margin: 5px auto 0;
+  border-radius: 2px;
+}
+
+body.dark .contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+body.dark .contact-form input,
+body.dark .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #3c3c3c;
+  color: #f0f0f0;
+}
+
+body.dark .contact-form button {
+  background: #8fcce1;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  background: linear-gradient(135deg, #805ad5, #8fcce1);
+}
+
+body.dark .contact-form button:hover {
+  background: #6aa9c9;
+}
+
+body.dark .contact-details {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+body.dark .contact-card {
+  background: #3c3c3c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 250px;
+  border: 1px solid #555;
+  border-left: 3px solid #555;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body.dark .contact-card:hover {
+  transform: translateY(-5px);
+}
+
+body.dark .contact-card p {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  border-bottom: 2px solid #8FCCE1;
+  padding-bottom: 2px;
+}
+
+body.dark .contact-card svg {
+  font-size: 2rem;
+  color: #6b46c1;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body.dark .contact-card a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
