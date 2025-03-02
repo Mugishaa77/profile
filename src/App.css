@@ -444,7 +444,7 @@ nav svg {
   display: block;
   width: 80px;
   height: 3px;
-  background: #8fcce1;
+  background: #EDA3B9;
   margin-top: 5px;
   border-radius: 2px;
 }
@@ -452,7 +452,7 @@ nav svg {
 
 .education-card {
   background: white;
-  border-left: 5px solid #8fcce1;  /* Stylish left border */
+  border-left: 5px solid #EDA3B9;  /* Stylish left border */
   border-radius: 10px;
   padding: 20px 25px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -510,9 +510,9 @@ nav svg {
   background: white;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(143, 204, 225, 0.4);
   text-align: center;
-  border: 1px solid #FCDDFC;
+  border: 1px solid #BDD8E6;
   transition: transform 0.3s ease-in-out;
   width: 250px; /* Ensures equal card width */
 }
