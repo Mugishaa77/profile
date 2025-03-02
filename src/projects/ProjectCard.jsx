@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLink, faLaptopCode} from '@fortawesome/free-solid-svg-icons'
+
+
 export default function ProjectCard({ project }) {
     return (
       <div className="project-card">
@@ -19,8 +23,8 @@ export default function ProjectCard({ project }) {
   
           <p className="tech-stack">Tech Stack: {project.techStack.join(", ")}</p>
           <div className="project-links">
-            <a href={project.liveLink} className="btn live" target="_blank" rel="noopener noreferrer">🔗 View Project</a>
-            <a href={project.codeLink} className="btn code" target="_blank" rel="noopener noreferrer">💻 View Code</a>
+            <a href={project.liveLink} className="btn live" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLink} /> View Project</a>
+            <a href={project.codeLink} className="btn code" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLaptopCode} /> View Code</a>
           </div>
         </div>
       </div>
