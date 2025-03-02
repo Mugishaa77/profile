@@ -42,7 +42,6 @@
     transition: transform 0.3s ease-in-out;
     padding: 15px;
     border: 1px solid #BDD8E6;
-  
     
 
   }
@@ -66,6 +65,7 @@
     object-fit: contain; /* Ensures image fills without distortion */
     display: block;
     transition: transform 0.3s ease-in-out;
+    border-radius: 5px;
   }
   
   
