@@ -8,11 +8,28 @@
   padding-top: 5px;
 }
 
+/* Skills & Services Section Header */
 .services .h {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 700;
   text-align: center;
+  margin-bottom: 20px;
+  position: relative;
 }
+
+/* Add a subtle bottom border for the title */
+.services .h::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #8fcce1;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+
+
 .service-card {
   background: white;
   border-radius: 12px;

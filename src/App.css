@@ -256,12 +256,12 @@ nav svg {
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, #FCDDFC, #DAC9DB);
-  color: #553c9a;
+  background: linear-gradient(135deg, #805ad5, #8fcce1 );
+  color: white;
 }
 
 .primary-btn:hover {
-  background: linear-gradient(135deg, #553c9a, #805ad5);
+  background: linear-gradient(135deg, #FCDDFC, #DAC9DB);
   transform: translateY(-3px);
   color: white;
 }
@@ -303,165 +303,258 @@ nav svg {
     padding: 1rem;
    
 }
-
-.about h2 {
-    font-size: 2em;
-    text-align: center;
-    color: #00274D;
-  
-   
+.intro-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 20px;
+  background: #fdfdfd;
+  border-radius: 8px;
+  border-left: 4px solid #8fcce1; /* Elegant left border */
 }
 
-.about .professional-summary{
+.intro-text {
+  max-width: 900px;
   font-size: 1.2rem;
-  color: #666;
-  margin: 1rem; 
+  font-weight: 400;
+  color: #333;
+  line-height: 1.8;
+  padding-left: 20px;
+  text-align: left;
+  font-family: "Playfair Display", serif; /* Elegant serif font */
 }
 
-.about p {
-    font-size: 1.2em;
-   color: #003366;
-  
-   
-     
-    
+/* Smooth fade-in effect */
+.intro-text {
+  opacity: 0;
+  transform: translateX(-10px);
+  animation: fadeInLeft 0.8s ease-in-out forwards;
 }
 
-.about h3 {
-  color: var(--main-red);
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 
-.professional-summary p {
-  font-weight: bold;
-}
-.about h4 {
-    font-size: 1.5em;
-    text-align: center;
+/* Work Experience Section */
+.experience {
+  padding: 1rem;
+  background-color: #f9f9f9;
 }
 
-.recommendation {
-    margin: 1rem;
-    padding: 1rem;
-    box-shadow: 3px 3px 5px 0 var(--marigold);
-    padding-left: 2rem;
-    
+.experience .h {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
 }
 
-.recommendation:hover {
- box-shadow: 3px 3px 3px 0 #B8A48D;
- 
+/* Add a subtle bottom border for the title */
+.experience .h::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #8fcce1;
+  margin: 10px auto 0;
+  border-radius: 2px;
 }
 
-.recommendation h3 {
-  color: #B8A48D;
+/* Work Experience Cards */
+.experience-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  justify-content: center;
 }
 
-.button-container {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10rem;
-    font-size: 1em;
-  }
-  
-  .button-container a {
-    color: var(--strawberry);
-    color: #CFB765
-  }
+/* Individual Work Experience Card */
+.experience-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: left;  /* Align text to the left for better readability */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 5px solid #8fcce1; /* Adds a slight accent */
+}
 
-  .button-container a:hover {
-    color: var(--strawberry);
-  }
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
 
-  .licenses {
-    padding: 1rem;
-    margin: 1rem;
-    margin-left: 5rem;
-    border-left: 2px solid var(--marigold);
-  
-  
-  }
+/* Job Title */
+.experience-card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
 
-  .licenses h3 {
-    color: #34858F;
-    padding: 1rem;
-    padding-bottom: 0;
-  }
+/* Company Name & Dates */
+.company {
+  font-size: 1rem;
+  color: #777;
+  font-style: italic;
+  margin-bottom: 12px;
+}
 
-  .licenses ul {
-    list-style-type: none;
-  margin-left: 1rem;
-  color: #00274D;
-  
-  
-  
-  }
+/* education */
 
-  .licenses ul li {
-    font-size: 1.2em;
-    padding-top: 1rem;
-   
-  }
+.education {
+  padding: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
 
-  .licenses a {
-    color: var(--teal);
-    margin: 1rem;
-    text-align: right;
-    font-size: 1em;
-    margin-bottom: 5px;
-  }
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  padding-top: 5px;
 
-  .licenses a:hover {
-    color: var(--strawberry);
-  }
+}
 
-  
+.education .h {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: left;  /* Aligning to the left */
+  margin-bottom: 20px;
+  margin-left: 20px;
+  position: relative;
+  padding-left: 10px;
+}
+
+/* Left-aligned underline */
+.education .h::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #8fcce1;
+  margin-top: 5px;
+  border-radius: 2px;
+}
 
 
-  .experience {
-    margin: 1rem;
-    padding: 1rem;
-    box-shadow: -3px -3px 5px 0 var(--marigold);
-   
-  }
+.education-card {
+  background: white;
+  border-left: 5px solid #8fcce1;  /* Stylish left border */
+  border-radius: 10px;
+  padding: 20px 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  width: 320px; /* Slightly wider cards */
+}
 
-  .experience:hover {
-    box-shadow: -3px -3px 5px 0 #B8A48D;
-    transform: translate(-2px);
-  }
+.education-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
 
-  .experience h3 {
-    padding: 1rem;
-    color: #B8A48D;
-   text-align: center;
-  
-  }
-  
+.education-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
 
-  .experience ul {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #00274D;
-    opacity: 0.9;
-    padding-left: 2rem;
-    
-   
-        
-  }
+.education-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+.quick-links {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
 
-  .experience ul li {
-    margin-bottom: 20px;
-    margin-left: 1rem;
-  }
+.quick .h {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
 
+/* Add a subtle bottom border for the title */
+.quick .h::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #8fcce1;
+  margin: 5px auto 0;
+  border-radius: 2px;
+}
+
+.quick-links-container {
+  display: flex;
+  gap: 20px;
+}
+
+.quick-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 250px; /* Ensures equal card width */
+}
+
+.quick-card:hover {
+  transform: translateY(-5px);
+}
+
+.quick-card svg {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.quick-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.quick-card a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0077cc;
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 2px;
+}
+
+.quick-card a:hover {
+  color: #0055aa;
+  border-color: #0055aa;
+}
+
+
+/*  */
     .technologies {
         margin: 1rem;
        
     }
   
     .technologies h3 {
-      color: #34858F;
         text-align: center;
+        font-size: 1.5rem;
+
     }
 
     .icons {
@@ -470,11 +563,12 @@ nav svg {
         justify-content: space-evenly;
         gap: 20px;
         margin: 20px 0;
-       padding: 1rem;
+       padding: 0.5rem;
+       background-color: #f9f9f9;
     }
     
-    .about i {
-        font-size: 36px;
+    .icons i {
+        font-size: 32px;
     }
   
     .outro {
