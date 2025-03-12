@@ -3,7 +3,7 @@ export default function Footer() {
     return (
         <div>
             <footer>
-                <a href="https://github.com/Mugishaa77/profile" target='_blank' rel="noopener noreferrer">
+                <a href="https://github.com/Mugishaa77/profile" title="See Repository" target='_blank' rel="noopener noreferrer">
                     Open Source
                 </a>
             </footer>
